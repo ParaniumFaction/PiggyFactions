@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DaPigGuy\PiggyFactions\commands;
 
-use CortexPE\Commando\BaseCommand;
-use CortexPE\Commando\BaseSubCommand;
+use DaPigGuy\PiggyFactions\libs\CortexPE\Commando\BaseCommand;
+use DaPigGuy\PiggyFactions\libs\CortexPE\Commando\BaseSubCommand;
 use DaPigGuy\PiggyFactions\commands\subcommands\admin\AddPowerSubCommand;
 use DaPigGuy\PiggyFactions\commands\subcommands\admin\AdminSubCommand;
 use DaPigGuy\PiggyFactions\commands\subcommands\admin\powerboost\PowerBoostSubCommand;
@@ -55,7 +55,7 @@ use DaPigGuy\PiggyFactions\PiggyFactions;
 use DaPigGuy\PiggyFactions\utils\ChatTypes;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
-use Vecnavium\FormsUI\SimpleForm;
+use DaPigGuy\PiggyFactions\libs\Vecnavium\FormsUI\SimpleForm;
 
 class FactionCommand extends BaseCommand
 {
