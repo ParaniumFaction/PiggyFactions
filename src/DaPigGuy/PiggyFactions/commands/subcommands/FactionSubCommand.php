@@ -17,13 +17,14 @@ use DaPigGuy\PiggyFactions\players\FactionsPlayer;
 use DaPigGuy\PiggyFactions\utils\PiggyArgument;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use pocketmine\utils\TextFormat;
 use DaPigGuy\PiggyFactions\libs\Vecnavium\FormsUI\CustomForm;
 
 abstract class FactionSubCommand extends BaseSubCommand
 {
     /** @var PiggyFactions */
-    protected $plugin;
+    protected Plugin $plugin;
 
     protected bool $requiresPlayer = true;
     protected bool $requiresFaction = true;

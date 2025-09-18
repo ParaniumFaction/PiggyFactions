@@ -55,12 +55,13 @@ use DaPigGuy\PiggyFactions\PiggyFactions;
 use DaPigGuy\PiggyFactions\utils\ChatTypes;
 use pocketmine\command\CommandSender;
 use pocketmine\player\Player;
+use pocketmine\plugin\Plugin;
 use DaPigGuy\PiggyFactions\libs\Vecnavium\FormsUI\SimpleForm;
 
 class FactionCommand extends BaseCommand
 {
     /** @var PiggyFactions */
-    protected $plugin;
+    protected Plugin $plugin;
 
     public function onRun(CommandSender $sender, string $aliasUsed, array $args): void
     {
