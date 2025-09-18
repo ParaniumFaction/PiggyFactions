@@ -13,7 +13,7 @@ economy:
   enabled: false
   provider: bedrockeconomy
   faction-bank:
-    enabled: true
+    enabled: false
 
 factions:
   enforce-alphanumeric-names: false
